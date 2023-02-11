@@ -144,4 +144,40 @@ header {
 
 /* Section 2 */
 
+.section2 {
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
+}
+
+.sec2-cards {
+    display: flex;
+    gap: 24px;
+    padding: 0 160px;
+}
+
+.sec2-card-item{
+    margin-top: 50px;
+    padding: 55px;
+}
+
+.sec2-card-item:hover {
+    margin-top: 50px;
+    padding: 55px;
+    background-color: #FFF4D6;
+    border-radius: 5px;
+}
+
+.sec2-card-title {
+    padding-top: 31px;
+    padding-bottom: 16px;
+    border-radius: 5px;
+}
+.sec2-para {
+    padding-top: 20px !important;
+    padding: 0 375px;
+    text-align: center;
+}
