@@ -51,6 +51,8 @@ header {
     border-radius: 5px;
 }
 
+/* Section - 1  */
+
 .section1 {
     height: 100vh;
     display: flex;
@@ -73,7 +75,8 @@ header {
     font-size: 30px;
     font-weight: 700;
     color: #707070;
-    /* border: 1px solid #707070; */
+    border: 1px solid #707070;
+    border-radius: 5px;
     padding: 43px 23px;
 }
 
@@ -84,11 +87,7 @@ header {
     color: #FF5959;
     border: 1px solid #FF5959;
     padding: 43px 23px;
-}
-
-
-.sec1-donate-btn {
-    text-decoration: none;
+    border-radius: 5px;
 }
 
 .sec1-title {
@@ -105,9 +104,44 @@ header {
     padding-bottom: 100px;
 }
 
-.sec1-input {{
-    
-}}
+.sec1-input {
+    padding: 13.5px 0 ;
+    height: 30px;
+    margin-top: 100px;
+    margin-bottom: 45px;
+    width: 765px;
+    border: none;
+    border-bottom: 1px solid gray !important ;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
 
-/* ----- */
+}
+
+.sec1-input::-webkit-outer-spin-button,
+.sec1-input::-webkit-inner-spin-button {
+        display: none;
+}
+
+.sec1-donate-btn {
+    color: white;
+    background-color: #FF5959;
+    text-decoration: none;
+    padding: 16px 20px;
+    border: 1px solid #FF5959;
+    border-radius: 5px;
+}
+
+.sec1-donate-btn:hover {
+    color: #FF5959 ;
+    border: 1px solid #FF5959;
+    background-color: white;
+    text-decoration: none;
+    padding: 16px 20px;
+    border-radius: 5px;
+}
+
+
+/* Section 2 */
+
 
