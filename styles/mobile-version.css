@@ -1,0 +1,139 @@
+@media screen and (max-width: 768px) {
+
+
+
+/* header  */
+
+header {
+    background-image: url(../assets/images/banner-gradient.png),url(../assets/images/banner-mobile.png);
+
+}
+.banner {
+        padding: 0;
+}
+.banner-title {
+    font-size: 30px;
+}
+.banner-description {
+    font-size: 15px;
+}
+
+/* section - 1 */
+.section1 {
+    padding: 0;
+    margin: 50px auto;
+}
+.sec1-title{
+    font-size: 40px;
+}
+.sec1-para{
+    font-size: 15px;
+}
+.sec1-list {
+    padding: 10px;
+}
+.sec1-list-item{
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    gap: 30px;
+}
+.sec1-para {
+    padding-bottom: 60px;
+}
+.sec1-input { 
+    width: auto;
+    margin-top: 32px;
+}
+.sec1-btn {
+    padding: 20px;
+}
+.special {
+    text-align: center;
+    display: grid;
+    grid-column: 1/span 2;
+}
+
+/* section 2 */
+.sec2-para {
+    padding: 18px 10px;
+}
+.section2 {
+    justify-content: normal;
+}
+.sec2-cards {
+    display: flex;
+    gap: 24px;
+    padding: 0 0;
+    flex-direction: column; 
+}
+.sec2-card-item {
+    margin-top: 0px;
+    padding: 40px;
+    text-align: center;
+}
+.sec2-card-item:hover {
+    margin-top: 0px;
+    padding: 40px;
+    text-align: center;
+    background-color: #FFF4D6;
+}
+
+/* section 3 */
+.section3 {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 60px;
+    margin: 698px 0px 0 0;
+}
+.sec3-image img {
+    width: 100%;
+    border-radius: 10px;
+}
+.sec3-image {
+    padding: 10px;
+}
+.sec3-info {
+    text-align: center;
+}
+
+/* section 4 */
+.section4 {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 40px;
+    margin: 20px 0;
+}
+
+/* section - 5 */
+.sec5-email {
+    padding: 13.5px 9px;
+}
+
+.section5 {
+    padding: 0;
+}
+.sec5-info {
+    padding: 0 20px;
+
+}
+.sec5-subscription {
+    display: flex;
+    background-color: #FFF4D6;
+    padding: 25px;
+    margin: 0px;
+    margin-bottom: 20px;
+}
+body h1 {
+    font-size: 30px!important;
+}
+body p {
+    font-size: 15px !important;
+}
+main {
+    margin: 0 20px;
+}
+
+
+}
