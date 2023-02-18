@@ -70,12 +70,15 @@ header {
     margin-top: 0px;
     padding: 40px;
     text-align: center;
+    box-shadow: 11px 7px 30px 0px rgba(0,0,0,0.68);
+    transition: background-color .3s , box-shadow .3s;
 }
 .sec2-card-item:hover {
     margin-top: 0px;
     padding: 40px;
     text-align: center;
-    background-color: #FFF4D6;
+    background-color: #ffbb00;
+    box-shadow: none;
 }
 
 /* section 3 */
